@@ -16,12 +16,18 @@ public class secondActivy extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
 
-        // fazer um botão que volte para a activity principal
-        Button btnVoltar = findViewById(R.id.btnvoltar);
-        //ao clicar
-        
+        }
+
+    // fazer um botão que volte para a activity principal
+    Button btnvoltar = findViewById(R.id.btnvoltar);
+    //ação do clique
+        public void ONclick(View){
+            //voltará para a mainactivity
+        finish();
+
+       }
 
         }
-    }
+
 
 
