@@ -16,22 +16,12 @@ public class secondActivy extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity);
 
-        // pega o botão do XML
-        Button btn2 = findViewById(R.id.btn2);
+        // fazer um botão que volte para a activity principal
+        Button btnVoltar = findViewById(R.id.btnvoltar);
+        //ao clicar
+        
 
-        // ação do clique
-        btn2.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // cria o "caminho" para a próxima tela
-                Intent intent = new Intent(secondActivy.this, thirdActivy.class);
-
-                // abre a próxima tela
-                startActivity(intent);
-            }
-
-
-        });
+        }
     }
-}
+
 
