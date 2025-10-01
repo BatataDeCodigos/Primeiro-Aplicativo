@@ -21,7 +21,7 @@ public class secondActivy extends AppCompatActivity {
     // fazer um botão que volte para a activity principal
     Button btnvoltar = findViewById(R.id.btnvoltar);
     //ação do clique
-        public void ONclick(View){
+        public void ONclick(View view){
             //voltará para a mainactivity
         finish();
 
